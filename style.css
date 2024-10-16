@@ -1,0 +1,143 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    background: linear-gradient(to left, lightblue, lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+h2 {
+    color: rgb(0, 0, 139);
+    font-size: 30px;
+}
+
+p {
+    padding-top: 12px;
+    color: rgb(0, 49, 164);
+    font-size: 16px;
+}
+
+#notePad {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    gap: 16px;
+    padding: 20px;
+}
+
+.inp {
+    width: 23%;
+    height: 200px;
+    border: none;
+    text-align: center;
+    border-radius: 12px;
+    background-color: transparent;
+    box-shadow: -2px 2px 24px 4px rgba(190, 181, 181, 0.75);
+}
+
+#btn {
+    width:23%;
+    height: 200px;
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+    background-color: transparent;
+    box-shadow: -2px 2px 24px 4px rgba(190, 181, 181, 0.75);
+}
+
+.inp::placeholder {
+    color: rgb(149, 207, 152);
+    text-align: center;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    background: linear-gradient(to left, lightblue, lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+h2 {
+    color: rgb(0, 0, 139);
+    font-size: 30px;
+}
+
+p {
+    padding-top: 12px;
+    color: rgb(0, 49, 164);
+    font-size: 16px;
+}
+
+#notePad {
+    width: 90%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+    padding: 20px;
+}
+
+.inp {
+    width: 100%; 
+    height: 200px;
+    border: none;
+    text-align: center;
+    border-radius: 12px;
+    background-color: transparent;
+    box-shadow: -2px 2px 24px 4px rgba(190, 181, 181, 0.75);
+}
+
+#btn {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+    background-color: transparent;
+    box-shadow: -2px 2px 24px 4px rgba(190, 181, 181, 0.75);
+}
+
+.inp::placeholder {
+    color: rgb(149, 207, 152);
+    text-align: center;
+}
